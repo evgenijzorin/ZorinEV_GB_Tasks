@@ -11,7 +11,6 @@ namespace Lesson_7_Task
             string coord1 = Console.ReadLine();
             Console.WriteLine("Введите координаты второй точки x y:");
             string coord2 = Console.ReadLine();
-
             // Перевести строку в массив
             string[] coord1Array = coord1.Split(' ');
             var x1C = coord1Array[0];
